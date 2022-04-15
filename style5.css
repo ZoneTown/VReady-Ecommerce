@@ -1,0 +1,29 @@
+.navbar{
+    color:white;
+    font-size:2rem;
+}
+
+#cont{
+    cursor:pointer;
+}
+
+#logo{
+    margin-right:40px;
+}
+
+.question-text{
+    text-align:center;
+}
+
+form{
+    text-align:center;
+}
+
+#questionarea{
+    margin-left:465px;
+    border:solid 2px black;
+}
+
+input[type=text]{
+    width:35%;
+}

@@ -1,0 +1,110 @@
+.navbar{
+    color:white;
+    font-size:2rem;
+}
+
+#cont{
+    cursor:pointer;
+}
+
+#logo{
+    margin-right:40px;
+}
+
+#cart-icon{
+    position:relative;
+    right:25px;
+}
+
+#image{
+    width:100%;
+    height:80vh;
+}
+
+#product-row{
+    padding:50px;
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#product-row-2{
+    margin-top:-5px;
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+}
+
+#product-name-left{
+    position:relative;
+    left:30px;
+}
+
+#product-name-mid{
+    position:relative;
+    left:15px;
+}
+
+#product-name-right{
+    position:relative;
+    right:28px;
+}
+
+#product-row-3{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+}
+
+#productlink1{
+    position:relative;
+    left:40px;
+}
+
+#productlink2{
+    position:relative;
+    left:15px;
+}
+
+#productlink3{
+    position:relative;
+    right:35px;
+}
+
+.zoom{
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+  
+.zoom:hover{
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.productlink{
+    text-decoration:none;
+    color:#131518;
+}
+
+#navbot{
+    background-color:#212529;
+    font-size:1.2rem;
+    padding:15px;
+    text-align:center;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.afoot{
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    border:1px solid #131518;
+    border-radius:5px;
+    background-color:#131518;
+}
+
+.afoot:hover{
+    color:#626262;
+}

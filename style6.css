@@ -1,0 +1,41 @@
+.navbar{
+    color:white;
+    font-size:2rem;
+}
+
+#cont{
+    cursor:pointer;
+}
+
+#logo{
+    margin-right:40px;
+}
+
+#cart-icon{
+    position:relative;
+    right:25px;
+}
+
+.imgpose{
+    position:absolute;
+    top:250px;
+    left:1000px;
+}
+
+#price{
+    position:absolute;
+    top:305px;
+    left:50px;
+}
+
+h4,h6{
+    margin-left:15px;
+}
+
+.zoom{
+    transition: transform .2s; /* Animation */
+}
+  
+.zoom:hover{
+    transform: scale(1.25); /* Minor Zoom */
+}
